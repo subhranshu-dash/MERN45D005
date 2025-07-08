@@ -1,0 +1,24 @@
+/* p{
+    background-color: brown;
+}
+#box{
+    height: 50px;
+    width:50px ;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+ #countener{
+    height: 100px ;
+    width: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+
+ }
+ .box{
+    height: 10px;
+    width: 10px;
+ }
