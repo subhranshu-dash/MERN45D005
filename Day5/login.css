@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    width: 100wh;
+    place-content: center;
+    place-items: center;
+    background-color: brown;
+    
+    
+
+    
+}
+section{
+    height: 400px;
+    width: 300px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+

@@ -1,0 +1,49 @@
+body{
+background-color: violet;
+}
+section{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    height: 400px;
+    width: 390px;
+    background-color:white;
+    text-align:center;
+    border-radius: 1rem;
+    
+    
+}
+.sima{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-bottom: 2px solid gray;
+}
+.sir{
+    margin-top: 10%;
+    height: 60px;
+    width: 200px;
+    border-radius: 1rem;
+    background-color: blueviolet;
+    color: blue;
+    font-size: larger;
+}
+.sir:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.shree{
+    margin-top: 8%;
+    font-size: larger;
+}
+span{
+    cursor: pointer;
+    
+}
+span:hover{
+    color: brown;
+}
+    

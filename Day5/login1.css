@@ -1,0 +1,144 @@
+
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #8d5545;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      width: 900px;
+      background: #f2f2f5;
+      /* border-radius: 20px; */
+      overflow: hidden;
+      /* box-shadow: 0 20px 40px rgba(0,0,0,0.1); */
+    }
+
+    .form-section {
+      flex: 1;
+      padding: 60px 40px;
+    }
+
+    .form-section h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .form-section p {
+      font-size: 14px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .input-field {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .input-field input {
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border: none;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .password-wrapper {
+      position: relative;
+    }
+
+    .password-wrapper input {
+      width: 100%;
+    }
+
+    .password-wrapper::after {
+      
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .recovery {
+      text-align: right;
+      font-size: 12px;
+      color: #999;
+      margin-top: -15px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    .sign-in-btn {
+      background-color: #9b6061;
+      color: white;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      font-size: 16px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+
+    .alt-signin {
+      text-align: center;
+      font-size: 14px;
+      color: #aaa;
+      margin: 25px 0 10px;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+  
+    .icons i{
+      font-size: 35px;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .illustration-section {
+      flex: 1;
+      background: url('c:\Users\hp\OneDrive\Dokumen\image1.jpg') no-repeat center;
+      background-size: cover;
+      position: relative;
+      border-radius: 20px;
+    }
+
+ .mainContainer{
+    padding: 16px;
+    background-color: #f2f2f5;
+     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+       border-radius: 20px;
+ }
+
+
+
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        width: 90%;
+      }
+
+      .illustration-section {
+        height: 200px;
+      }
+    }
+  
