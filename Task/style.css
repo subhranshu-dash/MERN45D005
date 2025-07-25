@@ -1,0 +1,24 @@
+body{
+    font-family: Arial,  sans-serif;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contener{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rosybrown;
+    width: 100%;
+    max-width: 400px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid;
+    
+}
+

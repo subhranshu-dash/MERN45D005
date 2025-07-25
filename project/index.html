@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind HTML Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100 text-center p-10">
+    <!-- Navbar -->
+    <nav class="flex py-4">
+      <div class="w-1/4">
+        <img src="/asserts/Logo.png" alt="Logo" />
+      </div>
+
+      <div class="w-1/2 flex items-center gap-2">
+        <strong>Deliver to:</strong>
+        <img class="w-4" src="./asserts/map-marker-alt.png" alt="" />
+        <span>Current Location</span>
+        <strong>Mohammadpur Bus Stand, Dhaka</strong>
+      </div>
+
+      <div class="w-1/4 flex justify-center gap-3">
+        <div class="flex justify-center items-center gap-2">
+          <img src="./asserts/Search.png" alt="" />
+          <strong>Search Food</strong>
+        </div>
+        <button
+          class="flex justify-center items-center text-[#FF9E00] font-bold gap-2 border p-2 shadow-lg rounded shadow-[#FF9E00]"
+        >
+          <img src="./asserts/user.png" alt="" /> Login
+        </button>
+      </div>
+    </nav>
+
+    <!-- hero section  -->
+    <div class="bg-[#FF9E00] flex">
+      <div class="w-[60%] flex justify-center items-start flex-col p-20">
+        <h1 class="text-5xl text-white font-bold mb-1">Are you starving?</h1>
+        <p>Within a few clicks, find meals that are accessible near you</p>
+
+        <div class="p-3 bg-white w-full"></div>
+      </div>
+      <div class="w-[40%]">
+        <img src="./asserts/Image.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
