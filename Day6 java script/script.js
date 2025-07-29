@@ -172,25 +172,29 @@
 //     console.log("milk")
 // }
 //ternary operator
-let age = 20;
- let check = age<=18 ? "not adult": "adult";
- console.log(check)// same as the if alse conditional statement
- //practice qs 3
-let mark = 60;
-let grade;
-if( score>=80 && score <=100){
-    grade = "A"
-}else if( score>=70 && score <=80){
-    grade = "b"
-}else if( score>=50 && score <=60){
-    grade = "c  "
-}
-else if( score>=20 && score <=30){
-    grade = "f "
-}
-console.log(" the final grade is:" , grade)
-
-
+// let age = 20;
+//  let check = age<=18 ? "not adult": "adult";
+//  console.log(check)// same as the if alse conditional statement
+//  //practice qs 3
+// let mark = 60;
+// let grade;
+// if( score>=80 && score <=100){
+//     grade = "A"
+// }else if( score>=70 && score <=80){
+//     grade = "b"
+// }else if( score>=50 && score <=60){
+//     grade = "c  "
+// }
+// else if( score>=20 && score <=30){
+//     grade = "f "
+// }
+// console.log(" the final grade is:" , grade)
+ arr = [1,2,3,4]
+ let newarr = arr.map((v) =>{
+    return v+2
+ })
+//  console.log(arr)
+ console.log(newarr)
 
 
 
